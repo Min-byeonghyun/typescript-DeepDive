@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    //컴파일 옵션
+    "target": "esnext", //최신문법으로 컴파일링
+    "module": "commonjs",
+    "skipLibCheck": true //.d.ts 타입선언 파일 검사 X 외부 라이브러리 타입 정의 파일은 O
+  },
+  "include": ["src"] //컴파일 범위
+}
