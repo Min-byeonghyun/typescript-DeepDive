@@ -1,9 +1,12 @@
 {
   "compilerOptions": {
     //컴파일 옵션
-    "target": "esnext", //최신문법으로 컴파일링
-    "module": "commonjs",
-    "skipLibCheck": true //.d.ts 타입선언 파일 검사 X 외부 라이브러리 타입 정의 파일은 O
+    "target": "esnext", //최신문법으로 컴파일
+    "module": "esnext", // 모듈시스템 컴파일
+    "skipLibCheck": true, //.d.ts 타입선언 파일 검사 X 외부 라이브러리 타입 정의 파일은 O
+    "outDir": "dist", //컴파일 디렉토리 설정
+    "strict": true, //엄격 모드
+    "moduleDetection": "force", //자동 모듈시스템 설정 export import 자동으로 추가
   },
   "include": ["src"] //컴파일 범위
 }

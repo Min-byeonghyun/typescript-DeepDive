@@ -1,1 +1,2 @@
-const fuc = () => console.log("hello");
+const a = 1;
+function func() {}
