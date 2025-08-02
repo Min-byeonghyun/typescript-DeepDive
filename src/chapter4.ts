@@ -33,7 +33,7 @@ type CountryNumberCodes = {
 };
 
 let countryNumberCodes: CountryNumberCodes = {
-  Korea: 410,
+  Korea: 4102,
   UnitedState: 840,
   UnitedKingdom: 826,
 };
