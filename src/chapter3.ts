@@ -1,7 +1,7 @@
 //object
 let user: { id?: number; name: string } = {
   id: 1,
-  name: "민병현",
+  name: "민병현1",
 };
 
 let config: { readonly apikey: string } = {
