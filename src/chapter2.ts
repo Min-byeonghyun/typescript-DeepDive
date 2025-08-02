@@ -5,7 +5,7 @@ let strArr: string[] = ["hello", "hi", "BH"];
 
 let boolArr: Array<boolean> = [true, false, true];
 
-let multiArr: (number | string)[] = [1, "hello"];
+let multiArr: (number | string)[] = [1, "hell"];
 
 //다차원 배열
 
