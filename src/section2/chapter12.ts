@@ -15,7 +15,7 @@ type Dog = {
   color: string;
 };
 
-let dog = {
+let dog : Dog = {
   name: "돌돌이",
   color: "brown",
   breed: "말티즈",
